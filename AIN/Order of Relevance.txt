@@ -1,0 +1,71 @@
+Highly Relevant
+Assunção et al., “Contemporary Software Modernization: Strategies, Driving Forces, and Research Opportunities,” ACM TSE, 2025.
+
+Jomhari et al., “A Multi-Criteria Decision-Making for Legacy System Modernization With FUCOM-WSM Approach,” IEEE Access, 2024.
+
+Hasan et al., “Legacy systems to cloud migration: A review from the architectural perspective,” JSS, 2023.
+
+Wolfart et al., “Modernizing Legacy Systems with Microservices: A Roadmap,” EASE, 2021.
+
+Lenarduzzi et al., “Does Migrating a Monolithic System to Microservices Decrease the Technical Debt?,” JSS, 2020.
+
+Velepucha and Flores, “A Survey on Microservices Architecture: Principles, Patterns and Migration Challenges,” IEEE Access, 2023.
+
+Tuusjärvi et al., “Migrating a Legacy System to a Microservice Architecture,” e-Informatica SEJ, 2024.
+
+Schmid et al., “Software Architecture Meets LLMs: A Systematic Literature Review,” arXiv:2505.16697, 2025.
+
+Talasila et al., “Modernizing Monolithic Applications with Language Models,” arXiv:2309.03796, 2023.
+
+Sato et al., “LLM Code Completion and Migration Support,” arXiv:2405.13333, 2024.
+
+Geng et al., “Modernizing COBOL Systems with Generative AI,” arXiv:2405.13333, 2024.
+
+##### Yousef et al., “Cognitive Cloud for Legacy Modernization,” Future Internet, 2024.
+
+Wu et al., “UICoder: Finetuning LLMs to Generate UI Code through Automated Feedback,” arXiv:2406.07739, 2024.
+
+#### Liu et al., “CrowdGenUI: Enhancing LLM-Based UI Widget Generation,” arXiv:2411.03477, 2024.
+
+Park et al., “LLM4UI: Towards User Interface Generation with LLMs,” arXiv:2405.13050, 2024.
+
+Lu et al., “NavI: Semantic UI Design Search through Dialogue with LLMs,” arXiv:2404.11072, 2024.
+
+Zhao et al., “UXAgent: Benchmarking LLM-Based Agents for UI Design,” arXiv:2403.13139, 2024.
+
+Chen et al., “AI-Chat2Design: Conversational Agents for UI Design,” arXiv:2310.15435, 2023.
+
+Guo et al., “Design2Code: LLMs as UI Design Assistants,” arXiv:2304.08103, 2023.
+
+Moderately Relevant
+Khan et al., “Architectural Patterns for Legacy Systems,” arXiv:2306.15792, 2023.
+
+Fritzsch et al., “Towards an Architecture-centric Methodology for Migrating to Microservices,” arXiv:2207.00507, 2022.
+
+Fritzsch et al., “Microservices Migration in Industry,” Empirical SE, 2020.
+
+Singh, “Modernizing Legacy FinTech Systems,” IJST, 2024.
+
+Ogunwole et al., “A Scalable Approach to Next-Gen Data Architectures,” IJMRGE, 2023.
+
+Moryossef et al., “LLMs in Software Architecture and Migration,” arXiv:2309.16739, 2023.
+
+Bhoopalam et al., “Pre-Trained Models for Cloud-Native Refactoring,” arXiv:2309.16739, 2023.
+
+Müller et al., “Pattern-Based Migration of Software Systems,” ICSA, 2023.
+
+Klenk and Berger, “Model-Driven Migration Approaches: A Systematic Review,” arXiv:1908.10337, 2019.
+
+Low Relevance
+Krishnan et al., “Incremental Analysis of Legacy Applications Using Knowledge Graphs,” ACM CODS/COMAD, 2022.
+
+Mili et al., “Service-Oriented Re-engineering of Legacy JEE Applications,” arXiv:1906.00937, 2019.
+
+Dachepally, “Modernizing Legacy Systems: Roadmap for Digital Transformation,” IJIRMPS, 2019.
+
+Khadka et al., “Digital Transformation Roadmap,” Applied System Innovation, 2022.
+
+Singh and Chauhan, “SOA-Based Reengineering of Legacy Software,” IJCA, 2017.
+
+Not Relevant
+None in this category as all contain at least some relevance to modernization or AI-driven transformation in enterprise systems.

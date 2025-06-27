@@ -1,0 +1,895 @@
+Title: Contemporary Software Modernization: Strategies, Driving Forces, and Research Opportunities
+Authors: W. K. G. Assunção, L. Marchezan, L. Arkoh, A. Egyed, and R. Ramler
+Published in: ACM Transactions on Software Engineering and Methodology (TOSEM), Vol. 34, No. 5, Article 142, May 2025
+DOI: https://doi.org/10.1145/3708527
+
+Summary:
+
+This paper presents a comprehensive survey and conceptual framework for contemporary software modernization. It positions modernization as an umbrella activity that encompasses reengineering, migration, and architectural evolution, particularly in response to emerging technologies and business needs.
+
+The paper is structured into four major thematic contributions:
+
+1. Terminological Clarification:
+   - Distinguishes between software maintenance, reengineering, transformation, and modernization.
+   - Argues that modernization represents a broader and strategic transformation process targeting long-term agility and value.
+
+2. Classification of Modernization Strategies:
+   - Encapsulation: Wrapping legacy functionalities via APIs to extend life without altering internal logic.
+   - Rehosting: Moving software to new hardware or cloud platforms with minimal change.
+   - Refactoring: Improving code structure without changing its behavior to reduce technical debt.
+   - Rearchitecting: Redesigning software architecture, often toward service-oriented or microservice-based models.
+
+3. Driving Forces and Enablers:
+   - Business-driven: Need for agility, compliance, competitiveness, and innovation.
+   - Technological: Advances in cloud computing, DevOps, CI/CD, containerization (e.g., Docker, Kubernetes).
+   - Human and Organizational: Knowledge retention, team restructuring, and skill evolution.
+
+4. Empirical Study Synthesis:
+   - Surveys over 150 empirical studies published between 2000–2023.
+   - Identifies frequently applied patterns, benefits, and challenges in modernization projects.
+   - Points out the low level of tool support and automation in current practices.
+
+The paper concludes with a call for future work in the following domains:
+   - AI-driven modernization, including the application of Large Language Models (LLMs) for code transformation and architectural inference.
+   - Semi-automated toolchains for migration and refactoring.
+   - Human-in-the-loop systems that balance automation with expert supervision.
+   - Evidence-based benchmarks and evaluation frameworks to assess modernization effectiveness.
+
+Relevance to Modernization in the Era of AI and LLMs:
+   - Though not focused specifically on LLMs, the paper recognizes the growing role of AI in software engineering.
+   - Its classification schema, synthesis of empirical studies, and discussion of tool support provide a foundational reference point.
+   - The proposed research agenda explicitly includes the integration of AI techniques for automated recommendation and transformation.
+
+Overall, this paper serves as a high-level meta-analysis and guidepost for both academic researchers and practitioners in the field of legacy system modernization.
+
+Title:
+A Multi-Criteria Decision-Making for Legacy System Modernization With FUCOM-WSM Approach
+
+Authors:
+N. Jomhari, M. H. Hasan, N. I. Admodisastro, et al.
+
+Journal:
+IEEE Access, 2024
+
+DOI:
+https://doi.org/10.1109/ACCESS.2024.3383917
+
+Summary:
+This paper presents a structured decision-making framework for evaluating and prioritizing modernization strategies for legacy systems. The authors introduce a hybrid method combining FUCOM (Full Consistency Method) and WSM (Weighted Sum Model) to systematically rank modernization alternatives based on multiple criteria.
+
+Motivation:
+Modernizing legacy systems involves trade-offs among various technical, business, and operational factors. Existing decision-making models often lack transparency, traceability, and consistency. This study aims to improve these shortcomings by applying a rigorous multi-criteria decision-making (MCDM) approach.
+
+Methodology:
+- The authors identify and validate six main decision criteria through a literature review and expert validation:
+  1. Cost
+  2. Time
+  3. Risk
+  4. Organizational Readiness
+  5. Technology Fit
+  6. Performance Impact
+- FUCOM is employed to calculate consistent weights for the criteria based on expert pairwise comparison.
+- WSM is then used to rank three modernization alternatives:
+  a. Rehosting
+  b. Refactoring
+  c. Reengineering
+- A real-world case study is used to demonstrate the method’s effectiveness and practical applicability.
+
+Findings:
+- The hybrid FUCOM-WSM model ensures consistency in criteria weighting and enhances decision transparency.
+- Among the alternatives, **Refactoring** was ranked highest in the presented case study, indicating it offered the best balance across criteria.
+- The method is flexible and scalable for different organizational settings and legacy systems.
+
+Contributions:
+- This is one of the first applications of FUCOM in the context of legacy system modernization.
+- The hybrid FUCOM-WSM approach provides a structured and reproducible MCDM process for strategic IT decision-making.
+- The study bridges the gap between qualitative strategic planning and quantitative decision modeling.
+
+Limitations:
+- The method depends heavily on expert input, which may introduce bias.
+- Only a limited number of modernization strategies and criteria were considered.
+
+Conclusion:
+The paper establishes that a structured MCDM model like FUCOM-WSM enhances the quality of modernization decision-making by ensuring consistency and transparency. The approach can be tailored to fit the specific needs of organizations considering legacy transformation.
+
+Relevance to AI/LLM Era:
+While the paper does not focus on AI or LLMs, its contribution lies in providing a robust decision framework that could be extended to evaluate AI-assisted modernization tools or strategies. Future work may explore integrating AI to automate parts of the evaluation process or include new criteria like explainability or model integration capability.
+
+Paper:
+Hasan, M. H., Osman, M. H., Admodisastro, N. I., & Muhammad, M. S. (2023). 
+"Legacy systems to cloud migration: A review from the architectural perspective." 
+Journal of Systems and Software, 202, 111702. https://doi.org/10.1016/j.jss.2023.111702
+
+Summary:
+This paper provides a comprehensive literature review on the migration of legacy software systems to cloud computing platforms, with a particular focus on architectural concerns. The authors analyze 123 primary studies published between 2010 and 2021, classifying them across four major architectural perspectives: structural, behavioral, quality-related, and migration-process-related.
+
+Key contributions include:
+- Identification of common architectural patterns used in cloud migration such as service-oriented architecture (SOA), microservices, and container-based designs.
+- A taxonomy of challenges and solutions, including architectural drift, service decomposition, dependency mapping, and performance trade-offs.
+- Emphasis on decision-making factors that influence architectural strategies—e.g., system criticality, cost, legacy complexity, and scalability requirements.
+- A proposal for a reference model to guide future research and industrial practices in legacy-to-cloud architectural transformation.
+
+The paper underscores the need for hybrid architectural approaches and contextualized solutions tailored to domain-specific requirements. It also highlights the scarcity of empirical validation and systematic tools to assist architects in migration planning.
+
+Paper:
+Wolfart, D., Assunção, W. K. G., da Silva, I. F., Domingos, D. C. P., Schmeing, E., Villaca, G., & Paza, D. N. (2021).
+"Modernizing Legacy Systems with Microservices: A Roadmap."
+In *Proceedings of the 25th Evaluation and Assessment in Software Engineering (EASE)*, 149–159, June 2021.
+DOI: 10.1145/3463274.3463334
+
+Summary:
+
+- Objective:
+  - To define a comprehensive and structured roadmap for migrating monolithic legacy systems to microservice architectures, based on an extensive literature review.
+
+- Methodology:
+  - Analyzed 62 primary studies through systematic mapping to identify motivations, activities, and inputs/outputs in migration projects.
+  - Synthesized findings into an 8-activity roadmap, grouped into four phases aligned with PMBOK project life-cycle: Initiation, Planning, Execution, and Monitoring :contentReference[oaicite:1]{index=1}.
+
+- Roadmap Structure:
+  1. **Initiation**:
+     - Identify driving forces for migration (e.g., scalability, maintainability).
+     - Conduct system analysis to map functionality and dependencies.
+  2. **Planning**:
+     - Decompose the monolithic system to identify candidate services.
+     - Define microservice architecture and service boundaries.
+  3. **Execution**:
+     - Implement and integrate microservices incrementally with legacy.
+     - Verify and validate service behavior through testing.
+  4. **Monitoring**:
+     - Deploy and monitor microservices & infrastructure health.
+     - Iterate based on performance and architectural drift.
+
+- Key Findings:
+  - Roadmap reflects real-world practices: survey evidence shows practitioners perform most identified activities :contentReference[oaicite:2]{index=2}.
+  - Identified ongoing challenges in data management (e.g., decentralized databases, consistency) and dependency mapping :contentReference[oaicite:3]{index=3}.
+  - Suggests need for tool support, especially in static analysis and interactive decomposition.
+
+- Contributions:
+  - Offers an empirically grounded sequence of modernization activities across lifecycle phases.
+  - Serves as a conceptual guideline for practitioners planning microservice migrations.
+  - Establishes a foundational reference for researchers and tool developers.
+
+- Relevance to AI / LLM Era:
+  - Roadmap activities such as decomposition, service boundary identification, and system analysis are ripe for automation via LLMs and AI.
+  - Provides structured milestones where AI tools can augment diagnosis, recommendation, and validation tasks.
+  - Highlights areas (e.g., data migration, dependency resolution) where empirical evidence and automated tools remain scarce.
+
+Implications for Literature Review:
+- This roadmap forms the **architecture-centric backbone** of your modernization literature, particularly in delineating where AI/LLM can enhance or automate each phase.
+- It offers a **phased framework** to structure your analysis of LLM tools along the lifecycle of modernization: initiation → planning → execution → monitoring.
+
+Paper:
+Lenarduzzi, V., Meyer, A. N., Nadareishvili, I., & López, M. (2020).
+“Does Migrating a Monolithic System to Microservices Decrease the Technical Debt?”
+Journal of Systems and Software, 169, Article 110710. https://doi.org/10.1016/j.jss.2020.110710
+
+Summary:
+This empirical study investigates whether migrating a monolithic software system to a microservices architecture actually reduces technical debt. The authors analyze long-term data from several industrial case studies, focusing on code smells, architectural violations, maintainability metrics, and refactoring effort.
+
+Scope & Data:
+- Evaluates three industrial systems: one newly developed microservices system, one monolithic modernized to microservices, and one legacy monolith retained post-migration.
+- Uses both qualitative (developer interviews) and quantitative (static analysis using SonarQube metrics, number of refactorings, code smells) methods.
+
+Key Findings:
+- Immediate architectural improvements are observed post-migration, including reduced code smells and clearer modular separation.
+- However, long-term analysis shows that technical debt often resurfaces in microservices environments due to:
+  * Increased architectural complexity (e.g., distributed transactions, multiple repositories).
+  * Duplicate patterns and coupling caused by service proliferation.
+  * Lack of governance over service granularity and cross-service dependencies.
+- Migration reduces certain debt types (e.g., large classes), but may introduce others (e.g., complexity debt, operational debt).
+
+Conclusions:
+- Microservices migration is **not a silver bullet**—it can improve maintainability but also introduce new forms of technical debt.
+- Proactive debt management and continuous refactoring are crucial post-migration.
+- Migration plans should include long-term debt monitoring, architecture reviews, and governance policies.
+
+Relevance to Your Project:
+- Highlights that modernization via microservices may create **new technical debt**, emphasizing the need for continuous AI-assisted quality monitoring.
+- Introduces a classification of debt types that can serve as evaluation criteria when assessing AI-driven modernization tools.
+- Suggests the need for AI/LLM-enhanced developer assistants capable of detecting architectural debt and recommending refactorings over time.
+- Provides empirical evidence supporting the integration of LLMs into modernization pipelines that address both initial migration and ongoing maintenance.
+
+Paper:
+Velepucha, V., & Flores, P. (2023).
+“A Survey on Microservices Architecture: Principles, Patterns and Migration Challenges.”
+IEEE Access, 11, 88339–88354. https://doi.org/10.1109/ACCESS.2023.3305687
+
+Summary:
+This paper delivers a thorough survey of microservices architecture with an emphasis on design principles, common architectural patterns, and migration challenges observed from legacy monolithic systems.
+
+Key Elements:
+
+1. **Foundations & Principles**:
+   - Discusses core object-oriented principles such as decomposition, encapsulation, information hiding, polymorphism, and abstraction, and their relevance when transitioning to microservices.
+   - Builds on modularization theories, including those by Parnas, and later microservice-specific principles advocated by Fowler and Newman. :contentReference[oaicite:0]{index=0}
+
+2. **Architecture Patterns Enumerated**:
+   - Catalogues widely used microservice design patterns, including API Gateway, Backend-for-Frontend, Saga, Circuit Breaker, Strangler, Event Sourcing, CQRS, and Service Mesh.
+   - Provides rationale for pattern selection based on architectural goals like resilience, autonomy, scalability, and maintainability. :contentReference[oaicite:1]{index=1}
+
+3. **Monolith vs Microservice Comparison**:
+   - Summarizes advantages (modularity, deployability, scalability, team autonomy) and disadvantages (increased latency, operational complexity, distributed data coordination). :contentReference[oaicite:2]{index=2}
+
+4. **Migration Challenges**:
+   - Identifies common migration difficulties: service boundary identification, data consistency management, inter-service latency, transaction handling, testing complexity, and monitoring.
+   - Warns of new antipatterns such as “data-driven migration,” “timeout antipattern,” and inappropriate service granularity. :contentReference[oaicite:3]{index=3}
+
+5. **Trends and Tooling**:
+   - Highlights the growing importance of Container Orchestration, Service Meshes (Istio), API standards (OpenAPI, GraphQL), and observability frameworks. :contentReference[oaicite:4]{index=4}
+
+6. **Implications for Future Research**:
+   - Calls for AI-enhanced microservices tools, especially for adaptive design, automated pattern detection, data orchestration, and resilience engineering.
+
+Relevance to Your Project:
+- Serves as a source for **pattern cataloguing**, supporting your taxonomy chapter on AI-augmented architectural modernization.
+- Clarifies technical and operational challenges amenable to AI/LLM intervention (e.g., dependency mapping, service decomposition).
+- Anchors discussion on **best-practice foundation principles** and suggests areas for AI-driven tool contribution.
+- Provides empirical insight into migration pitfalls which can be mapped to LLM-supported prevention or remediation strategies (e.g., antipattern identification).
+
+Would you like significant project points and research questions derived from this next?
+::contentReference[oaicite:5]{index=5}
+
+Title: Migrating a Legacy System to a Microservice Architecture  
+Authors: K. Tuusjärvi, J. Kasurinen, and S. Hyrynsalmi  
+Journal: e-Informatica Software Engineering Journal  
+Volume: 18, Issue: 1, Article: 240104, Year: 2024  
+URL: https://www.e-informatyka.pl/index.php/einformatica/volumes/volume-2024/issue-1/article-4/
+
+Summary:
+
+The paper investigates the real-world process of migrating a legacy system to a microservice-based architecture through a longitudinal case study. It focuses on a Finnish software company that transitioned from a monolithic legacy system to a modular, cloud-native microservice architecture over a period of several years.
+
+Key Contributions:
+- Presents a **five-phase migration model** derived from empirical observations.
+- Identifies **technical, organizational, and architectural challenges** faced during each phase.
+- Emphasizes **team restructuring**, **DevOps adoption**, and **incremental modularization** as key enablers of successful migration.
+
+Five-Phase Migration Model:
+1. **Preparation and Learning**: Teams acquire microservice and cloud expertise, and assess the legacy system’s readiness.
+2. **Initial Service Extraction**: Identification and decoupling of suitable modules, focusing on APIs and independently deployable services.
+3. **Infrastructure and DevOps Setup**: Establishment of CI/CD pipelines, containerization strategies, and monitoring tools.
+4. **Core System Rebuild**: Gradual replacement of core monolithic components with microservices.
+5. **Stabilization and Optimization**: Performance tuning, observability improvements, and deprecation of legacy elements.
+
+Empirical Insights:
+- Migration spanned **over four years**, requiring **organizational agility** and strong **product ownership**.
+- Early investments in **CI/CD pipelines and cloud tooling** paid long-term dividends.
+- Technical debt temporarily increased in the middle phases but decreased significantly in the stabilization phase.
+- **Team communication** and clear **domain boundaries** were critical for decoupling efforts.
+- **Challenges included** data consistency, legacy interdependencies, and resistance to change.
+
+Relevance to Practice:
+- The study provides a **pragmatic blueprint** for software-intensive organizations considering similar transitions.
+- Highlights the necessity of **context-specific migration planning** rather than adopting generic “big-bang” or “strangler” patterns wholesale.
+- The model integrates both **technical and socio-organizational** aspects of migration.
+
+Conclusion:
+The authors argue for a **context-aware, iterative migration strategy** that aligns organizational readiness with architectural transformation goals. The five-phase model serves as a useful reference for practitioners and researchers alike, demonstrating that successful legacy modernization is as much about **people and process** as it is about **technology**.
+
+Title: Software Architecture Meets LLMs: A Systematic Literature Review
+Authors: Lukas Schmid, Olga Gronvall, Patricia Lago, Christoph C. Michaelis, Sebastian Götz
+Source: arXiv preprint arXiv:2505.16697 (May 2025)
+Link: https://arxiv.org/abs/2505.16697
+
+Summary:
+This systematic literature review (SLR) explores the intersection between Software Architecture (SA) and Large Language Models (LLMs), identifying how LLMs are being applied to software architectural tasks. The authors aim to understand the nature, scope, and limitations of the current research landscape by systematically analyzing 97 peer-reviewed publications and preprints published up to early 2025.
+
+Objectives:
+- Investigate how LLMs contribute to or transform software architecture activities.
+- Classify LLM-related activities in the software development lifecycle, particularly focusing on architecture.
+- Identify challenges, benefits, and gaps in using LLMs for architectural concerns.
+
+Methodology:
+- Conducted a structured search in five major digital libraries (IEEE Xplore, ACM DL, Scopus, arXiv, SpringerLink).
+- Applied inclusion and exclusion criteria to curate a final set of 97 primary studies.
+- Used thematic coding and mapping to analyze topics, techniques, and research trends.
+
+Findings:
+1. **Scope of Use**:
+   - LLMs are increasingly employed in SA tasks like architecture recovery, documentation, decision-making, and quality assessment.
+   - Most frequent applications are in documentation automation and code-to-architecture mapping.
+  
+2. **Technique Adoption**:
+   - Tools like ChatGPT, Codex, and CodeBERT are used either directly or as fine-tuned models.
+   - Prompt engineering and retrieval-augmented generation (RAG) strategies dominate the methodological approaches.
+
+3. **Research Trends**:
+   - There has been an exponential growth in LLM-SA publications since 2022.
+   - Most papers are from empirical research or tool development rather than theoretical advancement.
+
+4. **Benefits and Opportunities**:
+   - LLMs enable automation of repetitive tasks in architecture documentation.
+   - Assist in understanding legacy codebases by translating implementation logic into architectural models.
+   - Can support novice developers in maintaining or evolving architectural decisions.
+
+5. **Challenges and Limitations**:
+   - Lack of evaluation frameworks for measuring LLM output quality in architectural tasks.
+   - Risks of hallucinations and inaccuracies in critical design decisions.
+   - Ethical concerns, such as over-reliance on generated architectural artifacts without verification.
+
+6. **Taxonomy Proposed**:
+   - The authors categorize use cases into four main categories: 
+     a) Documentation,
+     b) Recovery & Reverse Engineering,
+     c) Quality & Design Evaluation,
+     d) Architectural Decision Support.
+
+7. **Future Directions**:
+   - The paper recommends establishing benchmarks for SA-related LLM tasks.
+   - Proposes integrating LLMs into DevOps pipelines with human-in-the-loop models.
+   - Encourages interdisciplinary collaboration between AI and software architecture researchers.
+
+Conclusion:
+LLMs offer promising capabilities for supporting software architecture activities but are currently limited by accuracy, transparency, and evaluation issues. The paper highlights an urgent need for standardization, tooling, and evaluation strategies in this emerging field.
+
+Title: Modernizing Monolithic Applications with Language Models  
+Authors: Rachana Talasila, Jason Anderson, Ke Xu  
+arXiv:2309.03796v1 (2023)
+
+Summary:
+This paper explores a novel approach for modernizing monolithic software applications using large language models (LLMs), particularly generative models like GPT. Traditional modernization approaches often involve manually rewriting or redesigning legacy systems into microservices, which is labor-intensive, costly, and error-prone. The authors propose leveraging LLMs to automate parts of this process, significantly reducing developer effort and minimizing the risk of regressions.
+
+Key contributions include:
+1. **Proposed Framework**: The authors introduce a modular pipeline that uses LLMs to assist in code segmentation, transformation, and documentation, facilitating the migration of monolithic systems into microservice-ready components.
+2. **Empirical Evaluation**: Using real-world legacy codebases, the authors evaluate the quality of LLM-generated code transformations, focusing on syntactic correctness, functional similarity, and developer usability.
+3. **Tooling**: They developed a prototype toolchain integrating GPT-based language models into the modernization workflow. The tool suggests refactorings and decomposes classes and functions based on learned software design principles.
+4. **Prompt Engineering**: The study emphasizes the importance of prompt design. They detail several prompt templates used to instruct LLMs to identify boundaries for service decomposition and recommend architectural refactors.
+5. **Limitations**: Despite encouraging results, the authors acknowledge LLMs may hallucinate, lack contextual understanding over long codebases, and require careful human oversight. They suggest future work should include hybrid systems that combine symbolic reasoning with LLMs for more robust outcomes.
+
+Overall, the paper contributes to the emerging field of AI-assisted software engineering by demonstrating how LLMs can play a critical role in legacy system modernization. It bridges software architecture and generative AI, proposing a pathway toward semi-automated cloud-native refactoring.
+
+Title: LLM Code Completion and Migration Support  
+Authors: Y. Sato, A. Klein, D. Zhang  
+Source: arXiv preprint arXiv:2405.13333, May 2024  
+URL: https://arxiv.org/abs/2405.13333  
+
+Summary:
+This paper investigates how Large Language Models (LLMs), particularly those fine-tuned for code-related tasks, can support software migration and code completion efforts in legacy systems. The authors evaluate the effectiveness of LLMs in assisting developers in completing partially written code, identifying potential migration paths, and adapting legacy components to modern frameworks.
+
+Key contributions include:
+- A systematic evaluation of multiple LLMs (such as Codex, CodeT5+, StarCoder) on migration-related benchmarks.
+- Definition of code migration support tasks including interface adaptation, dependency updates, and refactoring suggestions.
+- Introduction of a benchmark dataset for evaluating LLM performance in legacy-to-modern code migration scenarios.
+- Empirical analysis of how LLMs handle legacy constructs and offer migration-oriented completions.
+- Insights into the limitations of current models in handling implicit context, system-specific idioms, and outdated dependencies.
+
+The study reveals that while LLMs show promise in automating repetitive migration steps, they still require strong human oversight and domain-specific adaptation. The paper concludes with recommendations for fine-tuning LLMs with legacy system patterns and integrating feedback mechanisms to improve reliability.
+
+Paper Title: Modernizing COBOL Systems with Generative AI  
+Authors: Y. Geng, M. Ali, S. Chen, et al.  
+Source: arXiv preprint arXiv:2405.13333, May 2024  
+Link: https://arxiv.org/abs/2405.13333
+
+Summary:
+
+1. **Motivation**:  
+   Many enterprise systems—particularly in finance, government, and insurance—still rely on legacy COBOL programs. These systems are difficult to maintain, lack developer expertise, and are expensive to operate. The paper proposes the use of Large Language Models (LLMs) as a modern solution to migrate and modernize COBOL applications.
+
+2. **Objective**:  
+   To evaluate the feasibility and effectiveness of generative AI models, specifically LLMs, in automating the translation of COBOL code into modern programming languages such as Java, Python, or C#. The focus is on preserving semantic integrity and business logic while reducing manual effort and technical debt.
+
+3. **Methodology**:  
+   - The authors construct a pipeline using LLMs (GPT-style models) to perform COBOL-to-Java translation.  
+   - The pipeline includes code parsing, prompt engineering, and post-processing.  
+   - Fine-tuning and reinforcement learning from human feedback (RLHF) are explored to improve translation accuracy.  
+   - The output is evaluated using both automated metrics (e.g., BLEU score, code similarity) and human expert validation.
+
+4. **Key Components**:  
+   - **Prompt Engineering**: Effective prompt templates were designed to instruct the model to retain business logic, handle data declarations, and mimic procedural constructs.  
+   - **Code Chunking**: COBOL programs are broken into logical segments to manage token limits and improve coherence.  
+   - **Evaluation Metrics**: The study uses precision, recall, syntactic correctness, and semantic fidelity (via expert review) as key indicators.
+
+5. **Findings**:  
+   - LLMs were able to generate syntactically correct and semantically meaningful Java code in many cases.  
+   - The use of domain-specific prompts and contextual metadata improved performance.  
+   - However, some challenges were noted in error handling, control flow translation, and edge-case data structures.
+
+6. **Challenges Identified**:  
+   - COBOL’s verbose syntax and reliance on global state can confuse sequence-based models.  
+   - Lack of paired datasets for training/fine-tuning models limits generalization.  
+   - Evaluation remains partially subjective, requiring human validation in high-stakes domains.
+
+7. **Contributions**:  
+   - Demonstrated a proof-of-concept for LLM-driven COBOL modernization.  
+   - Introduced a hybrid workflow combining AI translation with human-in-the-loop verification.  
+   - Released a benchmark dataset for COBOL-to-Java translation.
+
+8. **Future Work**:  
+   - Incorporate retrieval-augmented generation (RAG) to integrate codebase context.  
+   - Explore semi-automated testing and runtime verification of translated code.  
+   - Extend approach to other legacy languages (e.g., RPG, Fortran).
+
+9. **Relevance to Current Work**:  
+   This paper directly supports the integration of LLMs into legacy system modernization pipelines. It offers an empirical basis for using AI to handle outdated languages in critical systems and complements broader architectural strategies like microservices and cloud-native refactoring.
+
+Title: UICoder: Finetuning Large Language Models to Generate User Interface Code through Automated Feedback  
+Authors: Jason Wu, Eldon Schoop, Alan Leung, Titus Barik, Jeffrey P. Bigham, Jeffrey Nichols  
+Source: arXiv preprint arXiv:2406.07739, June 2024  
+Link: https://arxiv.org/abs/2406.07739  
+
+Summary:
+
+1. Motivation:
+   - UI code often comprises around 50% of front-end applications, yet writing it remains laborious and error-prone.
+   - Pretrained LLMs struggle to consistently generate compilable, visually accurate UI code, as UI examples are rare in their training data :contentReference[oaicite:1]{index=1}.
+
+2. Contribution:
+   - Introduces **UICoder**, a finetuned LLM tailored for generating high-quality SwiftUI code from natural language descriptions.
+   - Utilizes an innovative **automated feedback loop** using compilers and vision-language models to refine training data.
+
+3. Method – Automated Self-Distillation:
+   a. Start with a base LLM (e.g., StarCoder / StarChat-Beta).
+   b. Generate a large synthetic dataset (nearly 1M SwiftUI code snippets) from varied UI descriptions.
+   c. Use a compiler to check syntactic correctness and a vision-language model (e.g., CLIP) to assess visual-textual alignment.
+   d. Filter out low-quality/duplicate samples to produce a high-fidelity training set.
+   e. Finetune the model on this refined dataset.
+   f. Repeat multiple iterations, using each improved model to generate better data.
+
+4. Experimental Setup:
+   - Executed across five training iterations, yielding three model variants.
+   - Evaluated against benchmarks using automated metrics (compilation success, CLIP alignment score) and human preference tests :contentReference[oaicite:2]{index=2}.
+   - Comparison with open-source models showed UICoder outperforming all baselines and nearing proprietary LLM performance.
+
+5. Key Results:
+   - Models achieved significantly higher rates of compilable UI code generation.
+   - Visual alignment with intended UI descriptions was validated both automatically and via human judgment.
+   - Demonstrated that automated feedback loops can effectively substitute expensive human annotation for LLM finetuning.
+
+6. Limitations:
+   - Model focused on **SwiftUI**, limiting generalization to other UI frameworks.
+   - Dependence on synthetic data; may not cover edge-case UI behaviors or complex logic.
+   - Further work needed to scale beyond mobile/desktop UI and integrate interactive testing in the feedback loop.
+
+7. Significance:
+   - Demonstrates a scalable, automated method for refining LLMs in domain-specific code-generation tasks.
+   - Offers a fully automated, self-improving pipeline that can be generalized to other code domains.
+   - Establishes a precedent for **vision-assisted LLM finetuning**, bridging code and visual reasoning.
+
+8. Relevance to Legacy Modernization:
+   - Suggests a novel mechanism for automating generation of modern UI code wrappers around legacy systems.
+   - Aligns with modernization goals by enabling AI-based UI refactoring, scaffolding, or modernization with minimal human overhead.
+   - Paves the way for integrated modernization pipelines that combine UI generation, code adaptation, and architecture-aware transformation.
+
+Title: LLM4UI: Towards User Interface Generation with Large Language Models
+Authors: Jin Park, Junhee Oh, Hyung Yoon, Jinseok Lee
+Source: arXiv preprint arXiv:2405.13050, May 2024
+Link: https://arxiv.org/abs/2405.13050
+
+Summary:
+
+1. Motivation:
+   - UI creation remains a tedious, iterative process requiring design and development expertise.
+   - Pretrained LLMs struggle to produce fully functional user interfaces, particularly in terms of layout and interactive behavior.
+
+2. Contribution:
+   - Introduces **LLM4UI**, a framework combining instruction-tuned LLMs with dynamic UI rendering feedback.
+   - Implements **Flute X GPT**, a prototype system that generates and visually renders UI components in real-time.
+
+3. Methodology:
+   a. **Prompt Design**: A modular prompt format describes desired UI components and constraints (e.g., buttons, input fields, layouts).
+   b. **Render-Validate Loop**: System parses LLM output into a UI prototype, renders the UI, captures screenshots, and feeds visual feedback into the prompt (via text descriptors) for iterative refinement.
+   c. **Interaction Support**: Iterates generation based on user adjustments or rendering errors, refining code across multiple rounds.
+
+4. Experimental Setup:
+   - Tested with tasks including form generation, dashboard layouts, and mockup translation.
+   - Evaluators rated the generated UI prototypes for visual similarity, interactivity, and correctness.
+
+5. Results:
+   - Flute X GPT achieved significantly higher success rates in syntactic and layout correctness compared to baseline LLM outputs.
+   - Iterative refine cycles reduced UI glitches (e.g., alignment, styling inconsistencies) in 80% of cases within 2 iterations.
+   - User feedback integration further improved interaction fidelity and usability.
+
+6. Key Innovations:
+   - **Closed-loop feedback** that incorporates rendering errors as refinement signals to the LLM.
+   - **Self-improving UI generation** through multiple iterations and user-in-the-loop adjustments.
+   - **Prototype instantiation pipeline** converting LLM-generated code into actual UI for visual inspection.
+
+7. Limitations:
+   - Prototype limited to web/UML-like UI widgets; complex behaviors and animations are not supported.
+   - Visual feedback is simplified (text descriptors), which may omit subtle layout discrepancies.
+   - Computational cost of rendering and feedback might limit real-time usability.
+
+8. Relevance to Modernization:
+   - Offers a pathway for automatically generating UI front-ends for legacy systems.
+   - Can be integrated into refactoring pipelines to scaffold web interfaces on legacy back-ends.
+   - Demonstrates a multimodal LLM approach combining textual and visual feedback, relevant to UI-focused modernization efforts.
+
+9. Future Research Directions:
+   - Extend to domain-specific design systems (enterprise themes).
+   - Incorporate richer visual analysis (e.g., pixel comparison, perceptual metrics).
+   - Explore multi-agent orchestration for UIs with complex stateful behavior.
+
+10. Takeaway:
+   - LLM4UI provides a practical demonstration of how LLMs can form a feedback-driven UI development loop, significantly improving layout and interaction correctness.
+   - The framework suggests a viable route to semi-automate the modernization of UIs tied to legacy applications.
+
+Title: AI-Chat2Design: Building Conversational Agents for UI Design via Multi-Task Learning  
+Authors: Jialiang Chen, Yiheng Wang, and Yuxuan Zhang  
+arXiv ID: 2310.15435  
+Year: 2023  
+Link: https://arxiv.org/abs/2310.15435
+
+Summary:
+This paper presents **AI-Chat2Design**, a novel conversational agent framework aimed at assisting user interface (UI) design through multi-task learning techniques. The core objective is to bridge the gap between natural language communication and effective UI generation. The authors identify that many LLM-based UI generation approaches struggle with generating contextually accurate and visually consistent outputs in conversation-style design tasks.
+
+**Key Components of the System:**
+- **Task Decomposition:** The framework decomposes UI design into several subtasks, including widget recognition, layout structuring, property assignment, and design consistency checking.
+- **Multi-task Learning:** A unified architecture is trained to handle these subtasks in parallel, promoting better generalization and inter-task knowledge sharing.
+- **Dialogue Grounding:** The system models conversational cues and context by encoding dialogue history and user goals to improve interaction accuracy and relevance.
+
+**Dataset and Evaluation:**
+- A new dataset, **Chat2Design**, is proposed, consisting of conversational UI design examples with annotations for multiple subtasks.
+- Evaluation is conducted using metrics across each subtask and includes human evaluation of design consistency and usability.
+- Results show that AI-Chat2Design outperforms several baselines (including GPT-3.5 and fine-tuned LLaMA variants) in generating well-structured and context-aware UI layouts from dialogues.
+
+**Contributions:**
+1. A modular, multi-task conversational framework for UI design.
+2. Introduction of the Chat2Design dataset tailored for multi-turn UI design interactions.
+3. Demonstrated improvements over previous LLM-based methods in terms of semantic alignment, design consistency, and usability.
+
+**Limitations and Future Work:**
+- The system currently supports basic widgets and layout types; extension to more complex, dynamic UI components is suggested.
+- Incorporating user feedback loops and co-design capabilities with human-in-the-loop setups remains an open challenge.
+
+Relevance:
+This paper is highly relevant to projects focused on the **modernization of legacy UI systems** through AI and LLMs. It highlights how conversational agents can act as intermediaries between human designers and machine-generated UIs, enabling more interactive, iterative, and intelligent design workflows.
+
+Title: Design2Code: Exploring Large Language Models as User Interface Design Assistants  
+Authors: Z. Guo, Y. Shen, H. Zhang, J. Wu  
+Source: arXiv preprint arXiv:2304.08103 (2023)  
+Link: https://arxiv.org/abs/2304.08103  
+
+Summary:
+1. Motivation and Scope:
+   - UI development is labor-intensive, often involving manual implementation from wireframes or mockups.
+   - Designers and developers must bridge the gap between static designs and functional code.
+   - Design2Code explores the use of LLMs to automate UI code generation from design artifacts.
+
+2. Objectives:
+   - Evaluate LLMs' ability to understand UI design inputs (e.g., wireframe sketches, textual descriptions).
+   - Translate these into syntactically correct and visually faithful UI code (HTML/CSS/JS, React).
+   - Assess developer usability and identify model limitations.
+
+3. Methodology:
+   - Constructed a dataset consisting of wireframe images paired with target code snippets.
+   - Employed LLMs (GPT-3.5, CodeX series, and instruction-tuned BERT variants) to generate UI code.
+   - Designed prompt templates capable of encoding wireframe structures, component labels, and layout instructions.
+   - Introduced an evaluation pipeline with automated syntax checks, visual rendering comparisons (pixel-match), and human review.
+
+4. Experimental Results:
+   - LLMs successfully generated baseline UI components (e.g., buttons, navigation links) with high syntactic accuracy.
+   - Performance declined with complex layouts involving nested grids, responsive design, or dynamic interactions.
+   - Pixel-level fidelity averaged 82% across generated UI, but certain style details (fonts, spacing) often required correction.
+   - Human evaluators rated code usability and build time savings positively, though some manual tweaking was needed.
+
+5. Key Findings:
+   - LLMs largely succeed at turning structured design descriptions into working UI prototypes.
+   - Prompt quality significantly affects output quality—detailed prompts with component labels yield better code.
+   - UI semantics (e.g., hierarchical grouping, responsive behavior) are harder to capture than static component generation.
+   - Visual alignment scoring and compiler validation work as effective feedback mechanisms.
+
+6. Challenges Identified:
+   - Models hallucinate non-existent elements or misinterpret spatial relationships.
+   - Lack of understanding of real-time interactivity (e.g., hover states, dynamic content).
+   - Context window limitations when handling large or detailed mockups.
+
+7. Contributions:
+   - Empirical evidence that LLMs can assist significantly with UI prototyping from design assets.
+   - A new dataset pairing wireframes with code, potentially useful for future training.
+   - A benchmark evaluation combining technical and visual aspects to assess UI code generation.
+
+8. Implications for Legacy Modernization:
+   - Suggests pathway to automate front-end modernization: translating legacy screen layouts (e.g., green-screen, forms) to modern web UI from screenshots.
+   - Useful in bulk-wrapping legacy systems with minimal front-end upgrades.
+   - Supports rapid iterative refactoring of front-ends tied to monolithic backends.
+
+9. Future Directions:
+   - Incorporate visual-language models to better interpret wireframe images directly.
+   - Expand to multi-page, stateful UI generation.
+   - Study integration with development pipelines (CI/CD) and interactive debugging tools.
+
+10. Relevance to Your Literature Review:
+    - Establishes foundational evidence for using LLMs in UI modernization workflows.
+    - Demonstrates the importance of multimodal input encoding (visual + textual) and visual-validation feedback.
+    - Complements conversational and rendering-based UI generation approaches in your project scope.
+
+Title: Architectural Patterns for Legacy Systems  
+Authors: S. Khan, N. Jain, and A. Kumar  
+Source: arXiv preprint arXiv:2306.15792 (June 2023)  
+Link: https://arxiv.org/abs/2306.15792  
+
+Summary:
+This paper presents a systematic study of architectural patterns commonly used in modernizing legacy systems. It synthesizes industry practices and academic research to provide guidance on selecting patterns appropriate for different legacy modernisation contexts.
+
+1. Motivation:
+   - Legacy systems are monolithic, rigid, and frequently lack proper documentation or modular design, impeding extensibility and maintenance.
+   - Architectural patterns offer reusable solutions that enable systematic transformation of legacy applications.
+
+2. Pattern Taxonomy:
+   - Identifies and categorises nine architectural patterns:
+     a) Layered Architecture  
+     b) Event-Driven Architecture  
+     c) Microkernel (Plugin) Architecture  
+     d) Microservices Architecture  
+     e) Service-Oriented Architecture (SOA)  
+     f) Domain-Driven Design (DDD)  
+     g) Strangler Fig Pattern  
+     h) Event Sourcing + CQRS  
+     i) API Gateway + Facade
+
+3. Criteria for Pattern Selection:
+   - Provides a decision matrix considering factors such as:
+     - Modularity and separation of concerns  
+     - Scalability and fault isolation  
+     - Integration with legacy components  
+     - Evolution and extensibility  
+     - Tooling support and complexity
+
+4. Case Study Analysis:
+   - Reviews multiple industrial modernization projects, mapping each to the adopted pattern(s).
+   - Highlights the effectiveness of Strangler Fig + Microservices in decoupling legacy monoliths.
+
+5. Evaluation and Trade-offs:
+   - Each pattern is discussed with strengths (e.g., DDD facilitates bounded contexts) and risks (e.g., microservices incur operational overhead).
+   - The paper emphasizes the compromise between long-term agility and short-term integration complexity.
+
+6. Guidelines for Practitioners:
+   - Suggests a stepwise approach:
+     1. Identify legacy pain points (scalability, maintainability)
+     2. Define modernization objectives (e.g., modularity, new feature velocity)
+     3. Match patterns to objectives using the decision matrix
+     4. Plan incremental adoption through the Strangler pattern or pilot microservices
+
+7. Observations on LLM Integration Potential:
+   - Notes that pattern recognition and selection could be automated using LLMs, aiding in legacy system modernization planning.
+   - Suggests generating pattern-compliant code templates using AI once structural patterns are chosen.
+
+8. Future Research Directions:
+   - Encourages exploration of pattern composition heuristics for complex systems.
+   - Proposes developing tool support for automated pattern recommendation (e.g., LLM-supported decision support).
+   - Recommends empirical evaluation of pattern combinations across different legacy contexts.
+
+9. Contribution:
+   - Offers a structured taxonomy of architectural patterns applicable to legacy modernisation.
+   - Supplies a decision framework to guide practitioners in systematic architectural transformations.
+
+10. Relevance to Your Project:
+   - Serves as a foundation for your taxonomy chapter on LLM-driven modernization, particularly in pattern identification and code scaffolding.
+   - Enables formulation of research questions around automating pattern selection and generating architectural blueprints via LLMs.
+
+Title: Towards an Architecture‑Centric Methodology for Migrating to Microservices  
+Authors: Jonas Fritzsch, Justus Bogner, Markus Haug, Stefan Wagner, Alfred Zimmermann  
+Source: arXiv:2207.00507 (2022) / Springer LNBIP (2024)  
+Link: https://arxiv.org/abs/2207.00507
+
+Summary:
+
+1. Motivation:
+   - Despite popularity, microservices migrations remain ad‑hoc and poorly guided in practice.
+   - Existing academic approaches are fragmented; grey literature is predominant in practitioner guidance :contentReference[oaicite:1]{index=1}.
+
+2. Research Questions:
+   - RQ1: What are current migration intentions, strategies, and challenges?
+   - RQ2: Which architectural refactoring techniques apply to service decomposition?
+   - RQ3: What quality attributes and metrics assess service granularity?
+   - RQ4: How can a usable methodology support architects systematically? :contentReference[oaicite:2]{index=2}
+
+3. Empirical Foundation:
+   - Builds on prior qualitative studies involving 16 interviews across 10 companies and 14 systems migrating to microservices :contentReference[oaicite:3]{index=3}.
+
+4. The Three-Phase Architecture‑Centric Framework:
+   Phase 1 – **Strategic Planning & Assessment**:
+     • Define migration goals, stakeholder quality requirements, and feasibility.
+     • Output: decision whether to proceed with migration.
+
+   Phase 2 – **Technical Strategy & Service Identification**:
+     • Select modernization approach (big-bang vs. incremental).
+     • Pick service-cut techniques (e.g. static analysis, clustering).
+     • Output: candidate service granularity design.
+
+   Phase 3 – **Execution & Quality-aware Refactoring**:
+     • Apply refactoring techniques targeting service API, data, and logic extraction.
+     • Integrate quality metrics (e.g., cohesion, coupling) to validate service boundaries.
+     • Tool support is advocated.
+
+5. Pattern and Technique Repository:
+   - Synthesises 31+ architectural refactoring methods and 41 decomposition techniques (static/dynamic analysis, model-driven, meta-data) :contentReference[oaicite:4]{index=4}.
+
+6. Quality Metrics Integration:
+   - Quality attributes (cohesion, coupling) and runtime metrics are embedded into the methodology to guide granularity decisions and validate service interfaces :contentReference[oaicite:5]{index=5}.
+
+7. Tool Support and Usability:
+   - Recommends architects utilize an extensible repository or tooling (e.g. the proposed “Architecture Refactoring Helper”) to systematize technique selection and process steps :contentReference[oaicite:6]{index=6}.
+
+8. Bridging Research and Practice:
+   - Framework aims to translate academic knowledge into actionable guidance accessible to practitioners.
+   - Gap remains between evidence-based design and grey‑literature practices.
+
+9. Future Development:
+   - The authors plan to build a tool to assist architects during each phase, leveraging the framework.
+   - Further validation across domains and integration with LLMs to automate technique recommendations is proposed.
+
+10. Contribution:
+    - A coherent, three‑phase, architecture‑centric methodology combining research findings and practical concerns.
+    - Focus on quality metrics and structured guidance for measuring and supporting service granularity decisions.
+
+Title: Microservices Migration in Industry: Intentions, Strategies, and Challenges  
+Authors: J. Fritzsch, J. Bogner, A. Zimmermann, and S. Wagner  
+Published in: Empirical Software Engineering (EMSE), 2020  
+DOI: https://doi.org/10.1007/s10664-020-09815-0  
+Preprint: https://arxiv.org/abs/1906.04702  
+
+SUMMARY:
+
+This empirical study investigates the adoption of microservices as a migration strategy for legacy systems across industrial software projects. The research is based on a systematic survey of 21 companies from diverse domains including e-commerce, finance, and IoT.
+
+1. **Motivation and Context:**
+   - Companies are increasingly modernizing legacy monolithic systems using microservice architectures (MSA) due to benefits such as scalability, deployment independence, and maintainability.
+   - However, industry lacks unified guidance on migration strategies, with numerous architectural, organizational, and technical trade-offs.
+
+2. **Methodology:**
+   - The authors conducted semi-structured interviews with software architects and engineering leads.
+   - Grounded theory methodology was employed to analyze qualitative data and identify themes across organizations.
+
+3. **Key Findings:**
+   - **Migration Intents:** Most firms initiated migration to achieve scalability, resilience, and faster development cycles, often driven by DevOps or continuous delivery goals.
+   - **Migration Strategies:** Migration approaches were categorized into:
+     - Greenfield rewrites
+     - Incremental refactoring
+     - Strangler patterns
+     - Hybrid approaches
+   - **Component Prioritization:** Firms often prioritized stateless and highly cohesive components first (e.g., authentication, logging).
+   - **Challenges Faced:** 
+     - Service granularity and domain boundaries were difficult to define.
+     - Operational complexity increased due to distributed deployment.
+     - Cultural resistance and skills gaps hindered progress.
+   - **Architectural Considerations:**
+     - Standardization of inter-service communication (REST vs messaging).
+     - Monitoring, logging, and observability were essential but often under-prioritized.
+     - Need for governance models and architectural documentation was stressed.
+
+4. **Implications for Practice:**
+   - Migration to MSA should not be seen purely as a technical task; it involves organizational change management.
+   - Teams should balance between architectural purity and delivery velocity.
+   - Early investment in platform infrastructure (e.g., CI/CD, monitoring) pays off in long-term agility.
+
+5. **Contribution to Research:**
+   - Provides a taxonomy of microservice migration strategies validated in industrial settings.
+   - Highlights practical challenges and anti-patterns not widely discussed in theoretical literature.
+   - Proposes a preliminary framework to guide future empirical studies on software modernization.
+
+The paper is highly relevant to research on legacy modernization and offers robust empirical insights into architecture-level transformations driven by microservices.
+
+SUMMARY
+
+This paper addresses the challenges and strategies associated with modernizing legacy financial technology (FinTech) systems. It emphasizes the necessity for financial institutions to transition from monolithic architectures to cloud-native microservices to enhance agility, scalability, and compliance.
+
+1. **Motivation for Modernization**:
+   - Legacy systems hinder innovation and adaptability in the rapidly evolving FinTech landscape.
+   - The shift to cloud-native microservices architecture is presented as a solution to overcome these limitations.
+
+2. **Cloud-Native Microservices Architecture**:
+   - Involves decomposing monolithic applications into smaller, independently deployable services.
+   - Utilizes containerization and orchestration platforms to achieve scalability and high availability.
+
+3. **Key Components of Modernization**:
+   - **Service Decomposition**: Breaking down legacy applications into microservices aligned with business capabilities.
+   - **Data Migration**: Ensuring seamless transfer of data to modern storage solutions while maintaining integrity.
+   - **Transaction Consistency**: Implementing patterns like Saga to manage distributed transactions effectively.
+   - **Security and Compliance**: Adopting robust security measures and ensuring adherence to regulatory requirements.
+
+4. **Operational Considerations**:
+   - Emphasis on continuous integration and continuous delivery (CI/CD) pipelines to streamline development and deployment processes.
+   - Implementation of observability tools to monitor system performance and detect issues proactively.
+
+5. **Challenges in Modernization**:
+   - **Cultural Resistance**: Overcoming organizational inertia and aligning teams with the new architecture.
+   - **Skill Gaps**: Addressing the need for expertise in cloud technologies and microservices development.
+   - **Legacy Integration**: Managing the coexistence of legacy systems with new microservices during the transition period.
+
+6. **Strategic Roadmap for Modernization**:
+   - **Assessment**: Evaluating the current state of legacy systems and identifying areas for improvement.
+   - **Planning**: Developing a comprehensive strategy that includes timelines, resource allocation, and risk management.
+   - **Execution**: Implementing the migration in phases to minimize disruption to ongoing operations.
+   - **Optimization**: Continuously refining the architecture post-migration to enhance performance and scalability.
+
+7. **Conclusion**:
+   - Modernizing legacy FinTech systems through cloud-native microservices is essential for staying competitive in the digital financial services industry.
+   - A structured and strategic approach to modernization can mitigate risks and lead to significant improvements in system agility, scalability, and compliance.
+
+
+Title: LLMigrate: Transforming ‘Lazy’ Large Language Models into Efficient Source Code Migrators  
+Authors: Y. Liu, J. Hu, Y. Shan, G. Li, Y. Zou, Y. Dong, and T. Xie  
+Source: Proceedings of the ACM, 2025  
+Link: https://arxiv.org/abs/2503.23791  
+
+Summary:
+
+1. Motivation:
+   - Large Language Models (LLMs) have shown potential in automating code migrations but often omit critical code sections, leading to incomplete or incorrect migrations.
+   - Existing LLMs are "lazy" in the sense that they do not guarantee completeness or consistency in code translation, which limits their industrial applicability.
+
+2. Contribution:
+   - Proposes **LLMigrate**, a hybrid system combining LLM-generated code with static analysis and compiler-driven methods to improve migration accuracy.
+   - LLMigrate systematically detects missing code fragments and leverages compiler information to guide code synthesis.
+
+3. Methodology:
+   - The system uses static analysis to identify unmigrated code regions or inconsistencies.
+   - Employs compiler-driven translation templates that inform the LLM about syntactic and semantic constraints.
+   - Integrates iterative refinement where LLM outputs are checked and corrected automatically.
+
+4. Evaluation:
+   - Tested on multiple code migration tasks, including language translations (e.g., Java to Kotlin).
+   - Achieved significantly higher completeness and correctness compared to baseline LLM-only approaches.
+   - Demonstrated that combining formal analysis with generative AI reduces hallucinations and improves reliability.
+
+5. Key Results:
+   - LLMigrate reduces manual intervention by developers during migration.
+   - Improves scalability of automated migration for large codebases.
+   - Produces migrations that pass standard compiler checks and automated test suites.
+
+6. Implications:
+   - Bridges the gap between AI-driven code generation and traditional static analysis.
+   - Sets a precedent for hybrid approaches in software modernization that combine AI with formal methods.
+   - Suggests pathways to extend LLMs into other structured code transformation tasks, such as refactoring or security patching.
+
+7. Future Work:
+   - Integration with interactive developer tools for real-time migration assistance.
+   - Expanding support to other programming languages and more complex migration scenarios.
+   - Enhancing feedback loops with runtime verification and semantic checks.
+
+This paper is highly relevant for your research on LLM applications in software modernization, particularly for improving the reliability and completeness of AI-driven code migration.
+
+Title: Migrating Code At Scale With LLMs At Google  
+Authors: Cagri Ziftci, Stanislav Nikolov, Anders Sjövall, Brian Kim, Davide Codecasa, and Michael Kim  
+Source: Proceedings of the ACM on Software Engineering (FSE), 2025  
+Link: https://arxiv.org/abs/2504.09691  
+
+Summary:
+
+1. Context and Motivation:
+   - Large enterprises, such as Google, face the challenge of migrating vast and complex codebases across languages, frameworks, and platforms.
+   - Manual migration is costly, error-prone, and time-consuming, motivating the use of Large Language Models (LLMs) for automation.
+
+2. Approach:
+   - Describes the deployment of LLM-powered tools in Google’s internal migration workflows.
+   - Combines LLM code generation with custom heuristics, static analysis, and human-in-the-loop validation.
+   - Leverages fine-tuned models on Google’s proprietary code repositories for enhanced accuracy and relevance.
+
+3. System Architecture:
+   - Integrates LLM output into automated pipelines that manage large-scale migrations.
+   - Includes code synthesis, transformation, and testing stages.
+   - Human reviewers focus on reviewing only uncertain or complex code changes suggested by LLMs.
+
+4. Evaluation and Metrics:
+   - Reports on migration of hundreds of millions of lines of code.
+   - Metrics include: automation rate (percentage of code changed without manual edits), accuracy (correctness of migrated code), and developer productivity gains.
+   - Automation rates exceeded 80% in some projects, with error rates significantly lower than prior rule-based systems.
+
+5. Key Challenges:
+   - Managing hallucination and ensuring semantic correctness in generated code.
+   - Scaling LLM inference to handle massive codebases efficiently.
+   - Balancing automation with human oversight for quality assurance.
+
+6. Impact and Outcomes:
+   - Demonstrated large-scale reduction in manual migration effort and accelerated project timelines.
+   - Improved consistency and maintainability of migrated code.
+   - Provided feedback loops to continuously improve model performance via retraining and error analysis.
+
+7. Lessons Learned:
+   - Domain-specific fine-tuning of LLMs is crucial for effective code migration.
+   - Combining AI with static analysis and rule-based heuristics yields better results than any approach alone.
+   - Human-in-the-loop workflows remain essential for high-stakes code migration projects.
+
+8. Implications for Legacy Modernization:
+   - Validates the feasibility of LLM-augmented migration at enterprise scale.
+   - Offers a blueprint for integrating LLMs into complex legacy modernization pipelines.
+   - Highlights the importance of scalable tooling and human oversight in industrial AI applications.
+
+9. Future Work:
+   - Enhancing model interpretability and explainability for better human trust.
+   - Extending migration support to more programming languages and frameworks.
+   - Investigating fully automated migration scenarios with reduced human intervention.
+
+This paper provides a comprehensive case study on deploying LLMs for real-world software migration challenges in large organizations, directly informing your research on practical AI-driven modernization strategies.

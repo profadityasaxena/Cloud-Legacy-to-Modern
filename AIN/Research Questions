@@ -1,0 +1,309 @@
+1. How can legacy software modernization be effectively categorized and operationalized across differing enterprise contexts using AI-augmented methods?
+
+2. What role can large language models (LLMs) play in automating source code refactoring, architectural inference, and system documentation during modernization?
+
+3. How can we design empirical benchmarks to evaluate the effectiveness and scalability of modernization tools and strategies across heterogeneous legacy systems?
+
+4. What human-in-the-loop mechanisms are necessary to ensure trust, interpretability, and control when using AI-driven systems for application modernization?
+
+5. How can modernization efforts be aligned with contemporary DevOps and cloud-native practices to minimize operational risk and technical debt in long-lived systems?
+
+Paper:
+Jomhari, N., Mustapha, A., Atan, R., Mamat, M., Ali, M., & Azid, N. (2024). 
+"A Multi-Criteria Decision-Making for Legacy System Modernization With FUCOM-WSM Approach." 
+IEEE Access, 12, 48608–48625. https://doi.org/10.1109/ACCESS.2024.3383917
+
+Research Questions:
+
+1. How can AI-enhanced decision support systems integrate MCDM models like FUCOM-WSM to automate the evaluation of legacy modernization strategies?
+
+2. What additional decision criteria should be considered when evaluating modernization options in the context of LLM-enabled software systems?
+
+3. Can LLMs be used to simulate expert elicitation for weight generation in multi-criteria decision-making frameworks such as FUCOM?
+
+4. How does the inclusion of AI-specific factors (e.g., explainability, data privacy risks, inference latency) affect the prioritization of modernization strategies using quantitative models?
+
+5. What is the comparative effectiveness of FUCOM-WSM versus AI-driven optimization approaches (e.g., reinforcement learning, genetic algorithms) in producing cost-effective modernization roadmaps?
+
+// Research Questions based on Hasan et al., 
+// “Legacy systems to cloud migration: A review from the architectural perspective,” JSS, 2023
+
+1. What are the primary architectural challenges encountered when migrating monolithic legacy systems to cloud-based platforms?
+
+2. How can architectural design patterns (e.g., microservices, service-oriented architecture) be systematically applied to facilitate efficient legacy-to-cloud transformation?
+
+3. What role do cloud service models (IaaS, PaaS, SaaS) play in shaping the migration strategy of legacy enterprise applications?
+
+4. How can organizations balance performance, scalability, and maintainability when redesigning legacy system architecture for the cloud?
+
+5. What are the gaps in current architectural frameworks that hinder seamless legacy system migration, and how can future research address these deficiencies?
+
+Paper:
+Wolfart, D. et al. (2021). “Modernizing Legacy Systems with Microservices: A Roadmap.” 
+In: Proceedings of the Evaluation and Assessment in Software Engineering (EASE), 2021.
+DOI: https://doi.org/10.1145/3463274.3463334
+
+Research Questions:
+
+RQ1: How can large language models (LLMs) enhance the automation of specific phases in the microservices migration roadmap proposed by Wolfart et al.?
+
+RQ2: What are the most effective techniques for leveraging AI to identify service boundaries and interdependencies in monolithic legacy applications?
+
+RQ3: Can the structured eight-activity roadmap be extended to incorporate AI-supported tools for real-time monitoring and quality assurance during modernization?
+
+RQ4: What gaps exist in current tooling support for the modernization process, and how can LLM-based solutions address the lack of automated static analysis and refactoring support?
+
+RQ5: How does the integration of LLM-driven developer assistants affect the iterative and partial migration patterns observed in enterprise-grade legacy modernization?
+
+1. To what extent does the migration from monolithic architectures to microservices influence the long-term accumulation of technical debt in enterprise software systems?
+
+2. What are the primary categories of technical debt that are most affected (increased or decreased) during microservices migration?
+
+3. How do microservices migration strategies (e.g., big-bang vs. incremental) affect the trajectory of technical debt reduction across different project types?
+
+4. What tools and measurement approaches are most effective for assessing technical debt before and after migrating to microservices?
+
+5. What organizational or team factors (e.g., expertise, processes, domain complexity) mediate the relationship between microservices adoption and technical debt outcomes?
+
+RQ1: How do different microservices migration strategies (e.g., Strangler Fig, Decomposition by Business Capability) impact modernization timelines and system stability in legacy enterprise systems?
+
+RQ2: What architectural patterns are most effective in managing the complexity of microservices-based legacy modernization, particularly in systems with tightly coupled data dependencies?
+
+RQ3: How can microservices architecture be optimized to balance operational scalability with observability and fault isolation in refactored legacy systems?
+
+RQ4: What role do containerization and service mesh technologies (e.g., Kubernetes, Istio) play in supporting resilient deployment and orchestration during legacy system transformation?
+
+RQ5: What are the limitations of current migration frameworks and tools, and how can AI or LLM-based techniques be integrated to support automated service decomposition and pattern detection?
+
+Research Questions Based on:
+Tuusjärvi, K., Kasurinen, J., & Hyrynsalmi, S. (2024). 
+"Migrating a Legacy System to a Microservice Architecture." 
+e-Informatica Software Engineering Journal, 18(1). 
+URL: https://www.e-informatyka.pl/index.php/einformatica/volumes/volume-2024/issue-1/article-4/
+
+RQ1: How can a phased migration framework support sustainable transition from legacy systems to microservice architectures in large-scale enterprise environments?
+
+RQ2: What are the organizational prerequisites (e.g., DevOps readiness, team structure) that influence the success rate of microservices adoption in legacy modernization projects?
+
+RQ3: In what ways does the integration of observability tools (e.g., logging, tracing, monitoring) mitigate risks during incremental microservice deployment?
+
+RQ4: How does the choice of migration strategy (e.g., big-bang vs. incremental) affect technical debt over the course of a multi-year modernization effort?
+
+RQ5: What role does domain-driven design play in identifying appropriate service boundaries during legacy-to-microservice architectural transformation?
+
+1. How can large language models (LLMs) be effectively utilized to automate architectural documentation and recovery in legacy software systems?
+
+2. What mechanisms are necessary to improve the trustworthiness and interpretability of LLM-generated architectural outputs in critical modernization workflows?
+
+3. In what ways can prompt engineering and retrieval-augmented generation (RAG) be optimized to support architecture-centric use cases such as pattern selection and structural refactoring?
+
+4. What benchmark datasets and evaluation frameworks are required to standardize the assessment of LLMs in software architecture tasks relevant to legacy system modernization?
+
+5. How can LLMs be integrated into continuous DevOps pipelines to support real-time architecture validation and decision support during the migration from monolithic to microservices-based systems?
+
+Research Questions Based on:
+Talasila et al., “Modernizing Monolithic Applications with Language Models,” arXiv:2309.03796, 2023.
+
+1. How effectively can large language models (LLMs) identify microservice boundaries within monolithic legacy systems using natural language prompts?
+
+2. What are the accuracy, efficiency, and scalability trade-offs of using LLMs for automated code segmentation and refactoring compared to traditional program analysis techniques?
+
+3. How can a human-in-the-loop framework be systematically integrated with LLM-based modernization pipelines to ensure correctness and maintainability?
+
+4. What types of prompts and conditioning strategies maximize the architectural decomposition capabilities of LLMs across different legacy codebases?
+
+5. How can LLM-powered modernization tools be embedded into enterprise CI/CD workflows to support incremental refactoring and deployment in cloud-native environments?
+
+Research Questions Based on:
+Sato et al., “LLM Code Completion and Migration Support,” arXiv:2405.13333, 2024
+
+1. How effective are large language models (LLMs) in performing syntactically and semantically accurate code migration from legacy systems to modern frameworks?
+
+2. What are the primary limitations of LLMs in understanding implicit dependencies and context-specific behaviors during the modernization of large monolithic codebases?
+
+3. How does developer-in-the-loop integration impact the performance and reliability of LLM-assisted migration pipelines?
+
+4. What are the comparative strengths of different LLM architectures (e.g., Codex, CodeT5+, StarCoder) in supporting specific categories of legacy-to-modern transformation tasks?
+
+5. Can prompt engineering and in-context learning techniques significantly reduce the hallucination rate of LLMs in complex migration scenarios such as UI framework upgrades or security refactoring?
+
+Research Questions Based on:  
+Geng et al., “Modernizing COBOL Systems with Generative AI,” arXiv:2405.13333, 2024
+
+1. How can generative AI models be fine-tuned to accurately interpret and translate COBOL code into modern programming languages such as Java or Python?
+
+2. What specific challenges arise in preserving business logic and data integrity during AI-assisted modernization of COBOL-based systems?
+
+3. How does the performance of generative AI-based translation compare with traditional rule-based or manual approaches in terms of accuracy, speed, and scalability?
+
+4. What role can prompt engineering and example-based learning play in improving the output quality of LLMs for COBOL modernization tasks?
+
+5. What are the implications of using generative AI for COBOL migration in regulated industries (e.g., banking or insurance), particularly with respect to auditability, maintainability, and compliance?
+
+Research Questions Based on:  
+Park et al., “LLM4UI: Towards User Interface Generation with Large Language Models,” arXiv:2405.13050, 2024.  
+URL: https://arxiv.org/abs/2405.13050
+
+1. How can feedback-driven generation loops using LLMs improve the accuracy and usability of automatically modernized user interfaces derived from legacy systems?
+
+2. To what extent can prompt engineering frameworks replicate the interface semantics of legacy applications when using LLMs for automated UI code generation?
+
+3. What are the limitations of current text-based feedback mechanisms in capturing visual or interactive deficiencies in LLM-generated user interfaces, and how can they be overcome?
+
+4. Can LLM-integrated UI generation systems be adapted to support domain-specific modernization scenarios (e.g., financial, healthcare, government UIs) while maintaining design compliance?
+
+5. How effective is the human-in-the-loop model in refining LLM-generated UI artifacts during iterative modernization cycles compared to fully automated approaches?
+
+RESEARCH QUESTIONS BASED ON:
+Guo et al., “Design2Code: Exploring Large Language Models as User Interface Design Assistants,” arXiv:2304.08103 (2023)
+
+1. How accurately can large language models (LLMs) translate legacy UI mockups or screenshots into functional HTML/CSS code representations, and what metrics best quantify this fidelity?
+
+2. What role does prompt engineering play in improving the alignment between LLM-generated UI code and the intended visual layout, especially in the context of modernizing poorly documented legacy systems?
+
+3. How can pixel-level visual comparison techniques be systematically employed to validate and refine UI code generated by LLMs for legacy interface modernization?
+
+4. What architectural enhancements or training strategies are necessary to enable LLMs to comprehend and replicate complex legacy UI structures, such as nested grids, dynamic forms, and accessibility patterns?
+
+5. Can a modular LLM-based assistant be developed to support continuous legacy UI modernization workflows—integrating prompt generation, visual validation, and interactive debugging into an automated DevOps pipeline?
+
+RESEARCH QUESTIONS
+
+1. How effectively can large language models (LLMs) generate user interface (UI) code from textual or visual prompts, and what design domains (e.g., forms, navigation, layout) are best supported?
+
+2. What are the comparative strengths and limitations of LLM-based UI assistants when benchmarked against traditional UI development tools in terms of usability, maintainability, and developer productivity?
+
+3. Can iterative prompt refinement improve the fidelity of generated UI code to design mockups, and how can this process be automated in real-time development workflows?
+
+4. What metrics can be developed to evaluate the semantic alignment between a designer’s intent and the UI code produced by LLMs?
+
+5. How does the use of LLM-generated UI code impact the accessibility, performance, and responsiveness of web applications when compared to manually developed alternatives?
+
+RESEARCH QUESTIONS BASED ON FRITZSCH ET AL. (2022)
+
+1. How can architectural quality metrics such as cohesion and coupling be effectively integrated into the process of service boundary identification during microservices migration?
+
+2. What are the comparative benefits and risks of adopting an incremental versus a big-bang strategy for migrating legacy systems to microservice architectures?
+
+3. To what extent can architectural refactoring patterns (e.g., "Extract Service", "Externalize State") be systematically applied to different types of legacy systems?
+
+4. How can tool-supported migration frameworks assist architects in selecting appropriate decomposition techniques across diverse application domains?
+
+5. What are the gaps between current industry practices and academically validated methodologies for microservice migration, and how can an architecture-centric framework bridge this divide?
+
+Research Questions Based on:  
+Fritzsch et al., “Microservices Migration in Industry: Intentions, Strategies, and Challenges,” Empirical Software Engineering, 2020  
+
+1. What factors most significantly influence the choice between incremental migration, greenfield rewrites, and strangler patterns in industrial microservices adoption?  
+
+2. How can organizations effectively define and validate service boundaries to optimize microservice granularity during legacy modernization?  
+
+3. What organizational and cultural interventions best facilitate developer adoption and skill development for successful microservice migration?  
+
+4. How do deployment, monitoring, and observability challenges affect the long-term maintainability and scalability of microservices in legacy modernization projects?  
+
+5. To what extent can automated tools, including AI and LLMs, assist in managing architectural governance and communication protocol standardization during microservices migration?  
+
+Research Questions Based on:
+Singh, “Modernizing Legacy FinTech Systems,” IJST, 2024
+
+1. How can financial institutions effectively decompose monolithic legacy systems into microservices aligned with business capabilities without disrupting ongoing operations?
+
+2. What strategies ensure data integrity and transactional consistency during the migration of legacy FinTech systems to distributed microservices architectures?
+
+3. How do security and regulatory compliance requirements influence architectural decisions in FinTech legacy modernization projects?
+
+4. What organizational and technical challenges most significantly impact the success of cloud-native modernization initiatives in financial services?
+
+5. How can continuous integration and deployment (CI/CD) pipelines be optimized to support rapid, reliable delivery of microservices in highly regulated FinTech environments?
+
+Research Questions Based on:
+Singh, “Modernizing Legacy FinTech Systems,” IJST, 2024
+
+1. How can financial institutions effectively decompose monolithic legacy systems into microservices aligned with business capabilities without disrupting ongoing operations?
+
+2. What strategies ensure data integrity and transactional consistency during the migration of legacy FinTech systems to distributed microservices architectures?
+
+3. How do security and regulatory compliance requirements influence architectural decisions in FinTech legacy modernization projects?
+
+4. What organizational and technical challenges most significantly impact the success of cloud-native modernization initiatives in financial services?
+
+5. How can continuous integration and deployment (CI/CD) pipelines be optimized to support rapid, reliable delivery of microservices in highly regulated FinTech environments?
+
+Research Questions Based on:
+Liu et al., “LLMigrate: Transforming ‘Lazy’ Large Language Models into Efficient Source Code Migrators,” Proc. ACM, 2025
+
+1. How can static analysis and compiler feedback be effectively integrated with LLM-generated code to improve completeness and correctness in automated code migration?
+
+2. What are the limitations of purely generative LLM approaches in handling complex code migration scenarios, and how can hybrid systems address these challenges?
+
+3. How does iterative refinement using formal methods impact developer productivity and code quality during legacy system modernization?
+
+4. What strategies can be employed to generalize the LLMigrate approach across different programming languages and diverse codebases?
+
+5. How can hybrid AI-formal method tools be incorporated into interactive development environments to support real-time, reliable code migration workflows?
+
+Research Questions Based on:  
+Ziftci et al., “Migrating Code At Scale With LLMs At Google,” Proc. ACM FSE, 2025  
+
+1. How can large language models be effectively fine-tuned on proprietary enterprise codebases to improve accuracy in large-scale code migration?  
+
+2. What are the optimal strategies to integrate static analysis and heuristics with LLM-generated code to mitigate hallucination and ensure semantic correctness?  
+
+3. How does human-in-the-loop validation impact the efficiency and reliability of AI-augmented code migration workflows at scale?  
+
+4. What architectural and infrastructural designs best support scalable inference pipelines for processing massive legacy codebases with LLMs?  
+
+5. To what extent can feedback loops from migration results and human reviews be automated to continuously enhance LLM performance in industrial modernization projects?  
+
+Research Questions Based on:  
+Schmid et al., “Software Architecture Meets LLMs: A Systematic Literature Review,” arXiv:2505.16697, 2025  
+
+1. How can Large Language Models be adapted or fine-tuned to effectively comprehend and generate domain-specific software architectural artifacts?  
+
+2. What methodologies can be developed to improve the explainability and trustworthiness of LLM-generated architectural designs and recommendations?  
+
+3. How can multi-modal inputs, such as combined architectural diagrams and textual requirements, be integrated into LLM workflows to enhance software architecture tasks?  
+
+4. What standardized benchmarks and evaluation frameworks are needed to systematically assess the performance of LLMs in software architecture-related tasks?  
+
+5. How does the incorporation of LLM-based tools impact collaboration, decision-making, and productivity within software architecture teams?
+
+Research Questions Based on:
+Bhoopalam et al., “Pre-Trained Models for Cloud-Native Refactoring,” arXiv:2309.16739, 2023
+
+1. How can pre-trained models be effectively fine-tuned to generalize across diverse legacy codebases for cloud-native refactoring tasks?
+
+2. What strategies can improve the interpretability and explainability of AI-generated refactoring suggestions in complex legacy systems?
+
+3. How can automated refactoring frameworks be integrated into continuous integration and deployment (CI/CD) pipelines to support ongoing modernization?
+
+4. What role does developer feedback play in refining and evolving pre-trained models for more accurate and context-aware refactoring?
+
+5. How can pre-trained models handle edge cases and architectural erosion commonly found in poorly documented legacy systems during automated refactoring?
+
+Research Questions Based on:  
+Müller et al., “Pattern-Based Migration of Software Systems,” ICSA, 2023  
+
+1. How can architectural migration patterns be effectively identified and recommended automatically for different legacy system contexts using AI and LLMs?  
+
+2. What criteria should guide the selection and combination of migration patterns to optimize risk, cost, and technical outcomes in legacy system modernization?  
+
+3. How can incremental migration strategies, such as the Strangler Fig Pattern, be orchestrated to minimize operational disruption during large-scale refactoring?  
+
+4. What tooling and automation approaches best support pattern-based migration planning, execution, and validation in complex software systems?  
+
+5. How does organizational alignment and stakeholder communication influence the success of pattern-based migration projects, and how can AI tools assist in facilitating these aspects?  
+
+Research Questions Based on:  
+Klenk and Berger, “Model-Driven Migration Approaches: A Systematic Review,” arXiv:1908.10337, 2019
+
+1. How can model-driven migration approaches be enhanced to better automate the extraction of accurate legacy system models in the presence of incomplete or undocumented codebases?
+
+2. What hybrid strategies can effectively integrate model-driven migration with AI and LLM techniques to improve modernization outcomes?
+
+3. How can tools supporting model-driven migration be designed to scale and adapt to diverse legacy architectures and industry domains?
+
+4. What methods can ensure validation and testing completeness throughout the model-driven migration lifecycle?
+
+5. How does the incorporation of domain expertise impact the quality and success rate of model-driven legacy system migration?
